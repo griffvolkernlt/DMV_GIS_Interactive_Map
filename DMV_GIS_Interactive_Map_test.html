@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DMV GIS Interactive Map</title>
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  
+  <style>
+    #map {
+      height: 90vh;
+      width: 100%;
+    }
+    #title {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Title -->
+<div id="title">DMV GIS Interactive Map</div>
+
+<!-- Map Container -->
+<div id="map"></div>
+
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([38.9072, -77.0369], 9);
+
+  // Add base map tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Load County Boundaries GeoJSON from GitHub
+  var countyBoundaries = L.geoJSON(null, {
+    style: {
+      color: 'blue',
+      weight: 2,
+      fill: false
+    },
+    onEachFeature: function (feature, layer) {
+      var properties = feature.properties;
+      var popupContent = '<strong>' + properties.NAMELSAD + '</strong><br>' +
+                         '<em>' + properties.DATAPAGE_NAME + '</em><br>' +
+                         'Type: ' + properties.ORG_TYPE + '<br>' +
+                         '<a href="' + properties.DATAPAGE_LINK + '" target="_blank">Visit Data Page</a><br>' +
+                         properties.NOTES + '<br>';
+      layer.bindPopup(popupContent);
+    }
+  }).addTo(map);
+
+  fetch('https://raw.githubusercontent.com/griffvolkernlt/DMV_GIS_Interactive_Map/refs/heads/main/DMV_gis_county_boundaries_test.geojson?token=GHSAT0AAAAAAC4B23AYR6FPBBG5W7YQTGGSZ4FRWDA')
+    .then(response => response.json())
+    .then(data => {
+      countyBoundaries.addData(data);
+    });
+
+  // Load WMATA Coverage GeoJSON from GitHub
+  var wmataCoverage = L.geoJSON(null, {
+    style: {
+      color: 'red',
+      weight: 2,
+      fill: false
+    },
+    onEachFeature: function (feature, layer) {
+      var properties = feature.properties;
+      var popupContent = '<strong>' + properties.ORGANIZATION_NAME + '</strong><br>' +
+                         '<em>' + properties.DATAPAGE_NAME + '</em><br>' +
+                         'Type: ' + properties.ORG_TYPE + '<br>' +
+                         '<a href="' + properties.DATAPAGE_LINK + '" target="_blank">Visit Data Page</a><br>' +
+                         properties.NOTES + '<br>';
+      layer.bindPopup(popupContent);
+    }
+  }).addTo(map);
+
+  fetch('https://raw.githubusercontent.com/griffvolkernlt/DMV_GIS_Interactive_Map/refs/heads/main/DMV_GIS_Multi_Org_polygons_test.geojson?token=GHSAT0AAAAAAC4B23AYRY6FSQ4UHUAJ4WF4Z4FRVSA')
+    .then(response => response.json())
+    .then(data => {
+      wmataCoverage.addData(data);
+    });
+
+  // Add layer control
+  L.control.layers(null, {
+    'County Boundaries': countyBoundaries,
+    'WMATA Coverage': wmataCoverage
+  }).addTo(map);
+</script>
+
+</body>
+</html>
