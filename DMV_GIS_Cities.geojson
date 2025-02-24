@@ -16,7 +16,8 @@
         "LSAD": "25",
         "ALAND": 158316184,
         "AWATER": 18709787,
-        "DATAPAGE_LINK": "https://opendata.dc.gov/"
+        "DATAPAGE_LINK": "https://opendata.dc.gov/",
+        "ORGANIZATION_NAME": "Washington city"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -269,7 +270,8 @@
         "LSAD": "25",
         "ALAND": 209649330,
         "AWATER": 28758743,
-        "DATAPAGE_LINK": "https://data.baltimorecity.gov/"
+        "DATAPAGE_LINK": "https://data.baltimorecity.gov/",
+        "ORGANIZATION_NAME": "Baltimore city"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -482,7 +484,8 @@
         "LSAD": "25",
         "ALAND": 16163924,
         "AWATER": 84155,
-        "DATAPAGE_LINK": "https://cityoffairfax.maps.arcgis.com/home/index.html"
+        "DATAPAGE_LINK": "https://cityoffairfax.maps.arcgis.com/home/index.html",
+        "ORGANIZATION_NAME": "Fairfax city"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -579,7 +582,8 @@
         "LSAD": "25",
         "ALAND": 38682338,
         "AWATER": 1069028,
-        "DATAPAGE_LINK": "https://cityofalexandria-alexgis.opendata.arcgis.com/"
+        "DATAPAGE_LINK": "https://cityofalexandria-alexgis.opendata.arcgis.com/",
+        "ORGANIZATION_NAME": "Alexandria city"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -731,7 +735,8 @@
         "LSAD": "25",
         "ALAND": 25493247,
         "AWATER": 146287,
-        "DATAPAGE_LINK": "https://cityofmanassas.maps.arcgis.com/home/index.html"
+        "DATAPAGE_LINK": "https://cityofmanassas.maps.arcgis.com/home/index.html",
+        "ORGANIZATION_NAME": "Manassas city"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -854,7 +859,8 @@
         "LSAD": "25",
         "ALAND": 5300262,
         "AWATER": 32,
-        "DATAPAGE_LINK": "https://www.fallschurchva.gov/158/Maps/"
+        "DATAPAGE_LINK": "https://www.fallschurchva.gov/158/Maps/",
+        "ORGANIZATION_NAME": "Falls Church city"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -918,7 +924,8 @@
         "LSAD": "25",
         "ALAND": 27066499,
         "AWATER": 178344,
-        "DATAPAGE_LINK": "https://data-fredericksburg.opendata.arcgis.com/"
+        "DATAPAGE_LINK": "https://data-fredericksburg.opendata.arcgis.com/",
+        "ORGANIZATION_NAME": "Fredericksburg city"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1028,7 +1035,8 @@
         "LSAD": "25",
         "ALAND": 7857548,
         "AWATER": 1609,
-        "DATAPAGE_LINK": "https://experience.arcgis.com/experience/6487353571244d9f9103b0d5dd85f766"
+        "DATAPAGE_LINK": "https://experience.arcgis.com/experience/6487353571244d9f9103b0d5dd85f766",
+        "ORGANIZATION_NAME": "Manassas Park city"
       },
       "geometry": {
         "type": "MultiPolygon",

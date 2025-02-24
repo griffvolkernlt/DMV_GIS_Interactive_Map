@@ -15,7 +15,9 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1549740652,
-        "AWATER": 215957832
+        "AWATER": 215957832,
+        "DATAPAGE_LINK": "https://www.baltimorecountymd.gov/departments/information-technology/gis",
+        "ORGANIZATION_NAME": "Baltimore County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -899,7 +901,9 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1277247584,
-        "AWATER": 35632258
+        "AWATER": 35632258,
+        "DATAPAGE_LINK": "https://www.montgomerycountymd.gov/GIS/",
+        "ORGANIZATION_NAME": "Montgomery County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1347,7 +1351,9 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 1335753247,
-        "AWATER": 14496364
+        "AWATER": 14496364,
+        "DATAPAGE_LINK": "https://www.loudoun.gov/120/Mapping-Geographic-Information",
+        "ORGANIZATION_NAME": "Loudoun County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1692,7 +1698,9 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1185763588,
-        "AWATER": 479433084
+        "AWATER": 479433084,
+        "DATAPAGE_LINK": "https://www.charlescountymd.gov/government/planning-and-growth-management/mapping-services",
+        "ORGANIZATION_NAME": "Charles County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2199,7 +2207,9 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1710961099,
-        "AWATER": 17635238
+        "AWATER": 17635238,
+        "DATAPAGE_LINK": "https://www.cityoffrederickmd.gov/523/Web-Mapping",
+        "ORGANIZATION_NAME": "Frederick County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2733,7 +2743,9 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 868305537,
-        "AWATER": 30842048
+        "AWATER": 30842048,
+        "DATAPAGE_LINK": "https://gisdata-pwcgov.opendata.arcgis.com/",
+        "ORGANIZATION_NAME": "Prince William County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3398,7 +3410,9 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 1012738308,
-        "AWATER": 40071741
+        "AWATER": 40071741,
+        "DATAPAGE_LINK": "https://www.fairfaxcounty.gov/maps/gis-data",
+        "ORGANIZATION_NAME": "Fairfax County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3950,7 +3964,9 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 649957177,
-        "AWATER": 6336170
+        "AWATER": 6336170,
+        "DATAPAGE_LINK": "https://data.howardcountymd.gov/",
+        "ORGANIZATION_NAME": "Howard County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4423,7 +4439,9 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1250040419,
-        "AWATER": 41926971
+        "AWATER": 41926971,
+        "DATAPAGE_LINK": "https://www.pgplanning.org/data-tools",
+        "ORGANIZATION_NAME": "Prince George's County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5119,7 +5137,9 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1132149296,
-        "AWATER": 231888421
+        "AWATER": 231888421,
+        "DATAPAGE_LINK": "https://www.harfordcountymd.gov/752/Maps-Apps",
+        "ORGANIZATION_NAME": "Harford County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5695,7 +5715,9 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 697237751,
-        "AWATER": 28087427
+        "AWATER": 28087427,
+        "DATAPAGE_LINK": "https://data-staffordva-gis.opendata.arcgis.com/",
+        "ORGANIZATION_NAME": "Stafford County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6099,7 +6121,9 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 552158541,
-        "AWATER": 341580669
+        "AWATER": 341580669,
+        "DATAPAGE_LINK": "https://www.calvertcountymd.gov/1534/Geographic-Information-Systems-GIS",
+        "ORGANIZATION_NAME": "Calvert County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6443,7 +6467,9 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 67332992,
-        "AWATER": 273562
+        "AWATER": 273562,
+        "DATAPAGE_LINK": "https://gisdata-arlgis.opendata.arcgis.com/",
+        "ORGANIZATION_NAME": "Arlington County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6596,7 +6622,9 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1074343715,
-        "AWATER": 448054686
+        "AWATER": 448054686,
+        "DATAPAGE_LINK": "https://www.aacounty.org/oit/geographic-information-systems",
+        "ORGANIZATION_NAME": "Anne Arundel County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7278,7 +7306,9 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1159355858,
-        "AWATER": 13112464
+        "AWATER": 13112464,
+        "DATAPAGE_LINK": "https://www.carrollcountymd.gov/services/gis-maps/",
+        "ORGANIZATION_NAME": "Carroll County"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7832,7 +7862,9 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 1678296035,
-        "AWATER": 9665552
+        "AWATER": 9665552,
+        "DATAPAGE_LINK": "https://fauquier-county-gis-fauquiergis.hub.arcgis.com/",
+        "ORGANIZATION_NAME": "Fauquier County"
       },
       "geometry": {
         "type": "MultiPolygon",
