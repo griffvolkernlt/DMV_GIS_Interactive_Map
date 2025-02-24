@@ -15,11 +15,7 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1549740652,
-        "AWATER": 215957832,
-        "DATAPAGE_LINK": "https://www.baltimorecountymd.gov/departments/information-technology/gis",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.baltimorecountymd.gov/departments/information-technology/gis"
+        "AWATER": 215957832
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -903,11 +899,7 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1277247584,
-        "AWATER": 35632258,
-        "DATAPAGE_LINK": "https://www.montgomerycountymd.gov/GIS/",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.montgomerycountymd.gov/GIS/"
+        "AWATER": 35632258
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1355,11 +1347,7 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 1335753247,
-        "AWATER": 14496364,
-        "DATAPAGE_LINK": "https://www.loudoun.gov/120/Mapping-Geographic-Information",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.loudoun.gov/120/Mapping-Geographic-Information"
+        "AWATER": 14496364
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1704,11 +1692,7 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1185763588,
-        "AWATER": 479433084,
-        "DATAPAGE_LINK": "https://www.charlescountymd.gov/government/planning-and-growth-management/mapping-services",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.charlescountymd.gov/government/planning-and-growth-management/mapping-services"
+        "AWATER": 479433084
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2215,11 +2199,7 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1710961099,
-        "AWATER": 17635238,
-        "DATAPAGE_LINK": "https://www.cityoffrederickmd.gov/523/Web-Mapping",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.cityoffrederickmd.gov/523/Web-Mapping"
+        "AWATER": 17635238
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2753,11 +2733,7 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 868305537,
-        "AWATER": 30842048,
-        "DATAPAGE_LINK": "https://gisdata-pwcgov.opendata.arcgis.com/",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://gisdata-pwcgov.opendata.arcgis.com/"
+        "AWATER": 30842048
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3422,11 +3398,7 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 1012738308,
-        "AWATER": 40071741,
-        "DATAPAGE_LINK": "https://www.fairfaxcounty.gov/maps/gis-data",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.fairfaxcounty.gov/maps/gis-data"
+        "AWATER": 40071741
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3978,11 +3950,7 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 649957177,
-        "AWATER": 6336170,
-        "DATAPAGE_LINK": "https://data.howardcountymd.gov/",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://data.howardcountymd.gov/"
+        "AWATER": 6336170
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4455,11 +4423,7 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1250040419,
-        "AWATER": 41926971,
-        "DATAPAGE_LINK": "https://www.pgplanning.org/data-tools",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.pgplanning.org/data-tools"
+        "AWATER": 41926971
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5155,11 +5119,7 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1132149296,
-        "AWATER": 231888421,
-        "DATAPAGE_LINK": "https://www.harfordcountymd.gov/752/Maps-Apps",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.harfordcountymd.gov/752/Maps-Apps"
+        "AWATER": 231888421
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5735,11 +5695,7 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 697237751,
-        "AWATER": 28087427,
-        "DATAPAGE_LINK": "https://data-staffordva-gis.opendata.arcgis.com/",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://data-staffordva-gis.opendata.arcgis.com/"
+        "AWATER": 28087427
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6143,11 +6099,7 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 552158541,
-        "AWATER": 341580669,
-        "DATAPAGE_LINK": "https://www.calvertcountymd.gov/1534/Geographic-Information-Systems-GIS",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.calvertcountymd.gov/1534/Geographic-Information-Systems-GIS"
+        "AWATER": 341580669
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6491,11 +6443,7 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 67332992,
-        "AWATER": 273562,
-        "DATAPAGE_LINK": "https://gisdata-arlgis.opendata.arcgis.com/",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://gisdata-arlgis.opendata.arcgis.com/"
+        "AWATER": 273562
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6648,11 +6596,7 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1074343715,
-        "AWATER": 448054686,
-        "DATAPAGE_LINK": "https://www.aacounty.org/oit/geographic-information-systems",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.aacounty.org/oit/geographic-information-systems"
+        "AWATER": 448054686
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7334,11 +7278,7 @@
         "STATE_NAME": "Maryland",
         "LSAD": "06",
         "ALAND": 1159355858,
-        "AWATER": 13112464,
-        "DATAPAGE_LINK": "https://www.carrollcountymd.gov/services/gis-maps/",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://www.carrollcountymd.gov/services/gis-maps/"
+        "AWATER": 13112464
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7892,11 +7832,7 @@
         "STATE_NAME": "Virginia",
         "LSAD": "06",
         "ALAND": 1678296035,
-        "AWATER": 9665552,
-        "DATAPAGE_LINK": "https://fauquier-county-gis-fauquiergis.hub.arcgis.com/",
-        "WMATA": null,
-        "WMATA_LINK": null,
-        "COMBINED_LINKS": "https://fauquier-county-gis-fauquiergis.hub.arcgis.com/"
+        "AWATER": 9665552
       },
       "geometry": {
         "type": "MultiPolygon",
